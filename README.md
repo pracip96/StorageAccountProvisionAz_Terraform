@@ -57,6 +57,13 @@ resource "azurerm_storage_blob" "FileOnAzure" {
 | storage_container_name | The name of the Container which should be created within the Storage Account | `string` | yes |
 | azurerm_storage_blob_name | The name of the storage blob. Must be unique within the storage container the blob is located | `string` | yes |
 
+## Outputs
+
+| Name | Description |
+| --- | --- |
+| storageaccname | Name of the storage account created. |
+| storagecontaineraccname | Name of the storageacc container created. |
+| storageblobname |Name of the blob created. |
 
 ## Help
 
